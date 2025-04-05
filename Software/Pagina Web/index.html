@@ -11,27 +11,30 @@
 <body>
 
     <!-- Encabezado -->
-    <div>
-        <a href="index.html"><img src="Logos\Logo.png"></a>
+    <div id="contenedor_logo">
+        <a href="index.html"><img src="Logos\Logo.png" id="logo"></a>
     </div>
 
     <!-- Seccion Conectar/Desconectar Wallet -->
-    <div>
-        <button>Conectar Wallet</button>
-        <button>Desconectar Wallet</button>
+    <div id="contenedor">
+        <h1 id="titulo">1.Conecte su wallet</h1>
+        <button id="boton_wallet">Conectar Wallet</button>
+        <button id="boton_wallet">Desconectar Wallet</button>
     </div>
     
     <!-- Seccion Datos Personales -->
-    <div>
-        <input type="text" placeholder="Nombre" required="">
-        <input type="text" placeholder="Apellido" required="">
-        <input type="text" placeholder="DNI" required="">
+    <div id="contenedor">
+        <h1 id="titulo">2.Ingrese sus datos personales</h1>
+        <input type="text" placeholder="Nombre" required="" id="input_datos_personales">
+        <input type="text" placeholder="Apellido" required="" id="input_datos_personales">
+        <input type="text" placeholder="DNI" required="" id="input_datos_personales">
     </div>
 
     <!-- Seccion Votacion -->
-    <div>
-        <button>Votar Rojo</button>
-        <button>Votar Azul</button>
+    <div id="contenedor">
+        <h1 id="titulo">3.Realice la votación</h1>
+        <button id="boton_votar">Votar Rojo</button>
+        <button id="boton_votar">Votar Azul</button>
     </div>
 
 </body>
