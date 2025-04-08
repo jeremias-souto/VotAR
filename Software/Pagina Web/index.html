@@ -25,10 +25,12 @@
     <!-- Seccion Datos Personales -->
     <div id="contenedor">
         <h1 id="titulo">2.Ingrese sus datos personales</h1>
-        <input type="text" placeholder="Nombre" required="" id="input_datos_personales" class="nombre">
-        <input type="text" placeholder="Apellido" required="" id="input_datos_personales" class="apellido">
-        <input type="text" placeholder="DNI" required="" id="input_datos_personales" class="dni">
-        <button type="button" id="boton_enviar">Enviar</button>
+        <form id="formulario">
+            <input type="text" placeholder="Nombre" required="" id="nombre" class="input_datos_personales">
+            <input type="text" placeholder="Apellido" required="" id="apellido" class="input_datos_personales">
+            <input type="text" placeholder="DNI" required="" id="dni" class="input_datos_personales">
+            <button type="button" id="boton_enviar" onclick="obtenerDatos()">Enviar</button>
+        </form>
     </div>
 
     <!-- Seccion Votacion -->

@@ -54,7 +54,7 @@
 
 
 /*Seccion Datos Personales*/
-#input_datos_personales {
+.input_datos_personales {
     margin: 10px;
     width: 150px;
 }
